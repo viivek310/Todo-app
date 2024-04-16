@@ -1,6 +1,7 @@
 import React from 'react'
 import { CiEdit } from "react-icons/ci";
 import { MdDelete } from "react-icons/md";
+// import { memo } from 'react';
 const Todo = ({todo,delTodo,editTodo,func,value}) => {
     const handeldelete = () => {
         delTodo(todo.id)
@@ -26,4 +27,4 @@ const Todo = ({todo,delTodo,editTodo,func,value}) => {
     )
 }
 
-export default Todo
+export default (Todo)
